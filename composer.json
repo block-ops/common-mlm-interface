@@ -1,0 +1,23 @@
+{
+    "name": "block-ops/common-mlm-interface",
+    "type": "library",
+    "description": "Class Library For the DirectScale API Interfacing",
+    "keywords": ["DirectScale","API","framework","mlm"],
+    "homepage": "https://github.com/block-ops/common-mlm-interface",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Ryan Rayner",
+            "email": "ryan@well-beyond.com",
+            "role": "Developer"
+        }
+    ],
+    "require": {
+        "php": ">=5.6.0"
+    },
+    "autoload": {
+		"psr-4": {
+			"BlockOpsInterface\\": "src/"
+		}
+	}
+}
