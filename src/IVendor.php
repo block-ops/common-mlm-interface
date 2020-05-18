@@ -25,4 +25,8 @@ interface IVendor
 	 *	@description	
 	 */
 	public	function Assets();
+	/**
+	 *	@description	
+	 */
+	public	function Auth();
 }
